@@ -1,0 +1,11 @@
+
+  {
+    "host" : {
+    "title" : "Host",
+    "src" : "https://jerkstore.webfly.io/images/host.png"
+  },
+  "qr" : {
+    "title" : "QR Code",
+    "src" : "https://jerkstore.webfly.io/images/qr.png"
+  }
+}

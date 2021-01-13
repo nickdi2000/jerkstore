@@ -1,0 +1,14 @@
+
+.container{
+  margin-top: 20px;
+}
+
+.hostImage{
+  width: 200px;
+  height: auto;
+}
+
+.center{
+  text-align: center;
+  margin: auto;
+}
