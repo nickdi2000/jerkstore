@@ -10,6 +10,11 @@
     font-size: 2em;
 }
 
+body{
+  opacity: 0;
+  background-color: yellow;
+}
+
 .host {
     width: 130px;
     height: auto;
@@ -25,16 +30,9 @@
 }
 
 </style>
-
-<video-bg :sources="['https://jerkstore.webfly.io/images/lord.mov']">
-  <!-- If you want to add content here, a slot is waiting! -->
-</video-bg>
-
 <template>
 
 <div class="container" id="main">
-
-
 
     <div class="row">
         <h2>Question #{{question_no + 1}}</h2>
@@ -58,11 +56,14 @@
             <br/>
         </div>
       </div>
-      <br/><br/>
+
+                <!--
+                <br/><br/>
 
                 <p style="line-height: 0px;">Play Along at:</p>
                 <h3>TriviaRat.com/JERK</h3>
                 <img :src="images.qr.src">
+                -->
 </div>
 
 </template>

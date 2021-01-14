@@ -1,6 +1,4 @@
-<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-
-<style>
+<style scoped>
 
 .box {
     z-index: 10;
@@ -10,6 +8,11 @@
     box-shadow: 10px 10px 8px #000;
     width: 100%;
     font-size: 2em;
+}
+
+body{
+  opacity: 0;
+  background-color: yellow;
 }
 
 .host {
@@ -27,16 +30,9 @@
 }
 
 </style>
-
-<video-bg :sources="['https://jerkstore.webfly.io/images/lord.mov']">
-  <!-- If you want to add content here, a slot is waiting! -->
-</video-bg>
-
 <template>
 
 <div class="container" id="main">
-
-
 
     <div class="row">
         <h2>Question #{{question_no + 1}}</h2>
@@ -68,6 +64,8 @@
 </div>
 
 </template>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
 
 <script>
 

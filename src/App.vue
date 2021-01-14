@@ -18,8 +18,6 @@ export default {
 </script>
 
 <style>
-@import "./assets/css/resetr.css";
-@import "./assets/css/prismic-edit-button.css";
 @import "./assets/css/bootstrap.css";
 @import "./assets/css/main.css";
 </style>
